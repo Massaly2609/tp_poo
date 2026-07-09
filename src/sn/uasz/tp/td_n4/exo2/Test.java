@@ -1,4 +1,8 @@
 import sn.uasz.poo.exo2.*;
+import sn.uasz.tp.td_n4.exo2.Imprimante;
+import sn.uasz.tp.td_n4.exo2.Ordinateur;
+import sn.uasz.tp.td_n4.exo2.Produit_Informatique;
+import sn.uasz.tp.td_n4.exo2.Scanner_Informatique;
 
 void main() {
 

@@ -1,4 +1,4 @@
-import sn.uasz.tp.td.n2.exo1.CompteBancaire;
+import sn.uasz.tp.td_n2.exo1.CompteBancaire;
 
 void main(String[] args) {
     if(args.length < 3){

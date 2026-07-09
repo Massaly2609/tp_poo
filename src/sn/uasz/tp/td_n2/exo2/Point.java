@@ -1,4 +1,4 @@
-package sn.uasz.tp.td.n2.exo2;
+package sn.uasz.tp.td_n2.exo2;
 
 public class Point {
     // Private attributes for coordinates

@@ -1,4 +1,4 @@
-package sn.uasz.tp.td.n2.exo1;
+package sn.uasz.tp.td_n2.exo1;
 
 public class CompteBancaire {
 

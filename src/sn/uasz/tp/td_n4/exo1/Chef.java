@@ -1,7 +1,6 @@
-package sn.uasz.poo.exo1;
+package sn.uasz.tp.td_n4.exo1;
 
 import java.time.LocalDate;
-import java.util.Date;
 
 public class Chef extends Employe{
 

@@ -30,7 +30,7 @@ Le projet est structuré de manière modulaire au sein d'un unique projet Java, 
 sn.uasz.tp
 │
 ├── td_n2
-│   ├── exercice1 (Gestion de Comptes Bancaires & Banque avec Scanner)
+│   ├── exercice1 (Gestion de Comptes Bancaires & exo1.sn.uasz.tp.td_n2.Banque avec Scanner)
 │   └── exercice2 (Représentation géométrique : Point et Segment)
 │
 ├── td_n3
@@ -71,7 +71,7 @@ java sn.uasz.tp.td_n2.exercice2.Segment 1 4 2 5
 Pour tester les opérations dynamiques (comme le débit d'un compte ou l'ajout de composants).
 
 ```bash
-java sn.uasz.tp.td_n2.exercice1.Banque "12345-X" "Ibrahima Massaly" 500000
+java sn.uasz.tp.td_n2.exercice1.exo1.sn.uasz.tp.td_n2.Banque "12345-X" "Ibrahima Massaly" 500000
 
 ```
 

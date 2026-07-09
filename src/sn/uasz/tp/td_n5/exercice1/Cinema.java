@@ -45,11 +45,10 @@ public class Cinema {
         this.salles = salles;
     }
 
-    // Methode Projecter
-
-    public void projecter (Salle s){
-//        On projetce dans une salle
-        this.salles.add(s);
+    // Ajouter une salle dans le cinema
+    public void ajouterSall(String code, int capacite){
+        Salle s = new Salle(code, capacite, this);
+        salles.add(s);
     }
 
     // Methode Afficher
@@ -65,10 +64,6 @@ public class Cinema {
         }
     }
 
-    // Ajouter une salle dans le cinema
-    public void ajouterSall(String code, int capacite){
-        Salle s = new Salle(code, capacite, this);
-        salles.add(s);
-    }
+
 
 }

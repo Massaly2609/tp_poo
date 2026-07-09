@@ -1,4 +1,4 @@
-package sn.uasz.poo.exo2;
+package sn.uasz.tp.td_n4.exo2;
 
 import java.time.LocalDate;
 

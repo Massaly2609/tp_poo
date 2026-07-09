@@ -1,7 +1,7 @@
-import sn.uasz.poo.exo1.Chef;
-import sn.uasz.poo.exo1.Directeur;
-import sn.uasz.poo.exo1.Employe;
-import sn.uasz.poo.exo1.Personne;
+import sn.uasz.tp.td_n4.exo1.Chef;
+import sn.uasz.tp.td_n4.exo1.Directeur;
+import sn.uasz.tp.td_n4.exo1.Employe;
+import sn.uasz.tp.td_n4.exo1.Personne;
 
 void main() {
 //    Creer un tableau de huit personne
