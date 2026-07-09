@@ -1,13 +1,3 @@
-# tp_poo
-Voici un modèle complet et très professionnel de fichier `README.md` rédigé en Markdown. Il englobe l'ensemble de votre projet Java universitaire (du TD2 au TD6, incluant votre correction sur le Cinéma, la gestion des points/segments, la relation Patients/Médecins, les Véhicules, et les Stylos).
-
-Il est conçu pour valoriser votre dépôt GitHub (`Massaly2609`) auprès de vos enseignants ou de futurs recruteurs.
-
-### 📝 Contenu à copier dans votre fichier `README.md`
-
-Vous pouvez créer un fichier nommé `README.md` à la racine de votre projet sur votre ordinateur, y coller le texte ci-dessous, puis faire un `git commit` et `git push`.
-
-```markdown
 # 🎓 Travaux Dirigés & Pratiques - Programmation Orientée Objet (Java)
 
 Ce dépôt regroupe l'ensemble des travaux dirigés (TD) et travaux pratiques (TP) réalisés dans le cadre du module de **Programmation Orientée Objet (POO)** en **Master 1 Informatique** à l'**Université Assane Seck de Ziguinchor (UASZ)**.
@@ -101,12 +91,4 @@ Le package `td_n5.exercice1` illustre parfaitement la traduction d'un diagramme 
 * **Nom :** Massaly
 * **GitHub :** [@Massaly2609](https://www.google.com/search?q=https://github.com/Massaly2609)
 * **Établissement :** Université Assane Seck de Ziguinchor (UASZ)
-* **Niveau :** Master 1 Informatique
-
-```
-
-### 💡 Quelques conseils professionnels pour votre GitHub :
-1. **Fichier `README.md` :** Placez-le bien à la racine de votre projet (dans le même dossier que votre dossier `src` ou vos packages). GitHub l'affichera automatiquement en page d'accueil de votre dépôt.
-2. **Fichier `.gitignore` :** Si ce n'est pas déjà fait, ajoutez un fichier nommé `.gitignore` à la racine pour éviter d'envoyer les fichiers `.class` compilés ou les dossiers cachés de votre IDE (`.idea/`, `.vscode/`, `bin/`). C'est une excellente pratique de développement.
-
-```
+* **Niveau :** Master 1 Informatique ~ Genie Logicel
