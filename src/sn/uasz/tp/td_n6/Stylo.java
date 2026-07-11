@@ -2,13 +2,15 @@ package sn.uasz.tp.td_n6;
 
 public class Stylo extends Pen {
 
-    public Stylo (String couleur, String marque, double poids, double taille){
-        super(couleur, marque, poids, taille);
+    // 2. Constructeur avec paramètres
+    public Stylo(String couleur, String marque, double poidsCorps, double tailleCorps) {
+        super(couleur, marque, poidsCorps, tailleCorps);
     }
 
-
+    // 4. Méthode afficher
+    @Override
     public void afficher() {
-        System.out.println("Stylo:");
+        System.out.print("[Stylo] ");
         super.afficher();
     }
 }

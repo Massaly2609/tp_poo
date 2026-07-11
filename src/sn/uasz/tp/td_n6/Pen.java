@@ -1,46 +1,31 @@
 package sn.uasz.tp.td_n6;
 
-import java.awt.datatransfer.SystemFlavorMap;
+public abstract class Pen {
+    protected String couleur;
+    protected String marque;
+    protected Corps corps; // Composition forte (1)
 
-public class Pen {
-
-    protected String couleur ;
-    protected String marque ;
-    protected Corps  corps ; // relation 1 : chaque Pen a un Corps
-
-    public Pen (String couleur, String marque,double poids, double taille){
-        this.couleur = couleur ;
-        this.marque  = marque ;
-        this.corps   = new Corps(poids,taille) ;
-    }
-
-    public String getCouleur() {
-        return couleur;
-    }
-
-    public void setCouleur(String couleur) {
+    // 2. Constructeur avec paramètres
+    public Pen(String couleur, String marque, double poidsCorps, double tailleCorps) {
         this.couleur = couleur;
-    }
-
-    public String getMarque() {
-        return marque;
-    }
-
-    public void setMarque(String marque) {
         this.marque = marque;
+        // La composition impose que le Pen crée son propre Corps
+        this.corps = new Corps(poidsCorps, tailleCorps);
     }
 
-    public Corps getCorps() {
-        return corps;
-    }
+    // 3. Getters et Setters
+    public String getCouleur() { return couleur; }
+    public void setCouleur(String couleur) { this.couleur = couleur; }
 
-    public void setCorps(Corps corps) {
-        this.corps = corps;
-    }
+    public String getMarque() { return marque; }
+    public void setMarque(String marque) { this.marque = marque; }
 
-//    Affichage
+    public Corps getCorps() { return corps; }
+    public void setCorps(Corps corps) { this.corps = corps; }
+
+    // 4. Méthode afficher
     public void afficher() {
-        System.out.println("Pen : Couleur : " + couleur + " marque : " + marque);
-        corps.afficher();  // Afficher les elements de Corps (poids, taille)
+        System.out.print("Marque: " + marque + " | Couleur d'encre: " + couleur + " | ");
+        corps.afficher();
     }
 }
