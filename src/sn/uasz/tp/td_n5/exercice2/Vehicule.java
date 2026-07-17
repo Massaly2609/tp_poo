@@ -1,14 +1,14 @@
 package sn.uasz.tp.td_n5.exercice2;
 
-public abstract class  Vehicule {
+public abstract class Vehicule {
 
-    protected String marque ;
-    protected String couleur ;
-    protected String coordX ;
-    protected String coordY ;
-    protected String coordZ ;
+    protected String marque;
+    protected String couleur;
+    protected double coordX;
+    protected double coordY;
+    protected double coordZ;
 
-    public Vehicule(String marque, String couleur, String coordX, String coordY, String coordZ) {
+    public Vehicule(String marque, String couleur, double coordX, double coordY, double coordZ) {
         this.marque = marque;
         this.couleur = couleur;
         this.coordX = coordX;
@@ -16,48 +16,21 @@ public abstract class  Vehicule {
         this.coordZ = coordZ;
     }
 
-//     Getter et Setter
+    // Getter et Setter mis à jour avec le type double
+    public String getMarque() { return marque; }
+    public void setMarque(String marque) { this.marque = marque; }
 
-    public String getMarque() {
-        return marque;
-    }
+    public String getCouleur() { return couleur; }
+    public void setCouleur(String couleur) { this.couleur = couleur; }
 
-    public void setMarque(String marque) {
-        this.marque = marque;
-    }
+    public double getCoordX() { return coordX; }
+    public void setCoordX(double coordX) { this.coordX = coordX; }
 
-    public String getCouleur() {
-        return couleur;
-    }
+    public double getCoordY() { return coordY; }
+    public void setCoordY(double coordY) { this.coordY = coordY; }
 
-    public void setCouleur(String couleur) {
-        this.couleur = couleur;
-    }
+    public double getCoordZ() { return coordZ; }
+    public void setCoordZ(double coordZ) { this.coordZ = coordZ; }
 
-    public String getCoordX() {
-        return coordX;
-    }
-
-    public void setCoordX(String coordX) {
-        this.coordX = coordX;
-    }
-
-    public String getCoordY() {
-        return coordY;
-    }
-
-    public void setCoordY(String coordY) {
-        this.coordY = coordY;
-    }
-
-    public String getCoordZ() {
-        return coordZ;
-    }
-
-    public void setCoordZ(String coordZ) {
-        this.coordZ = coordZ;
-    }
-
-//    Methode abstraite
     public abstract void afficher();
 }
